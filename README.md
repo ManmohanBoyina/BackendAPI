@@ -1,4 +1,4 @@
-<h1 align="center">BackendAPP</h1>
+<h1 align="center">BackendAPI</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-green" alt="Status"/>
   <img src="https://img.shields.io/github/license/ManmohanBoyina/BackendAPP" alt="License"/>
