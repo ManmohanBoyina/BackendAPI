@@ -27,8 +27,8 @@
 <h2>📥 Getting Started</h2>
 <p>Follow these instructions to set up the project locally:</p>
 
-<pre><code>git clone https://github.com/ManmohanBoyina/BackendAPP.git
-cd BackendAPP
+<pre><code>git clone https://github.com/ManmohanBoyina/BackendAPI.git
+cd BackendAPI
 In first terminal: node --watch app
 In second terminal: npx localtunnel --port 8000
 </code></pre>
