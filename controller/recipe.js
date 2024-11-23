@@ -4,7 +4,7 @@ const Recipe = require("../model/Recipe");
 const recipeCtrl = {
   //! Submit Recipe
   submitRecipe: asyncHandler(async (req, res) => {
-    const { recipename, ingredientLines, imageUrl, instructions, email } = req.body;
+    const { recipename, ingredientLines, imageUrl,videoUrl, instructions, email } = req.body;
 
     //! Validations
     if (!recipename || !ingredientLines || !instructions || !email) {
@@ -21,6 +21,7 @@ const recipeCtrl = {
         recipename,
         ingredientLines,
         imageUrl: finalImageUrl,
+        videoUrl,
         instructions,
         email,
       });

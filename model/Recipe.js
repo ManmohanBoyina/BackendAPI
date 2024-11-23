@@ -4,6 +4,7 @@ const RecipeSchema = new mongoose.Schema({
   recipename: { type: String, required: true },
   ingredientLines: { type: [String], required: true },
   imageUrl: { type: String, required: true },
+  videoUrl: { type: String},
   instructions: { type: String, required: true },
   email: { type: String, required: true }, // Add email field
 });
